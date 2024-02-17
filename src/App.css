@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,92 @@
   to {
     transform: rotate(360deg);
   }
+} */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Adding some padding to the navbar */
+.navbar {
+  padding: 10px;
+  background-color: transparent;
+  background-size: cover;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+
+/* Centering the navbar items */
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+/* Adjusting the spacing between navbar items */
+.nav-item {
+  /* margin-left: 2px;
+margin-right: 2px; */
+}
+
+/* Media query to adjust styles for mobile view */
+@media (max-width: 768px) {
+
+  /* Centering the toggler button */
+  .navbar-toggler {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Centering the dropdown menu */
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  /* Centering the dropdown items */
+  .navbar-nav {
+    margin: 0;
+  }
+
+  /* Removing padding from navbar */
+  .navbar {
+    padding: 0;
+  }
+}
+
+.__navbar-item {
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  background-size: cover;
+  position: relative;
+}
+
+/* login and registration css */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.heading{
+  font-size: 3vh;
+  font-weight: bold;
+}
+.card{
+  border: 3px solid gray;
+  padding: 30px;
+  box-shadow:4px 4px 4px ;
+  
+
+}
+.form-control{
+  background-color:ghostwhite;
 }
